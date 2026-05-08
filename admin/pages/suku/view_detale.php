@@ -1,0 +1,1 @@
+<h1>View Detail</h1>

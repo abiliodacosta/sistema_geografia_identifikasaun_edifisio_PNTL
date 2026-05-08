@@ -1,0 +1,37 @@
+# Ativa Rewrite Engine
+RewriteEngine On
+
+# Impede Directory Listing (lista faile sira)
+Options -Indexes
+
+# 1. SEGURANSA: Blokeia asesu direto ba database no faile sensivel
+<FilesMatch "(db_localition_pntl\.sql|\.env|\.git)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# 2. SEGURANSA: Proteje extensaun faile perigu
+<FilesMatch "\.(sql|ini|log|txt|md|xml|json|sh|cfg|conf)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# 3. HIDE PHP EXTENSION - PARTE 1: External Redirect
+# Se ema digita /faile.php, redirect ba /faile (hodi hide .php)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# 4. HIDE PHP EXTENSION - PARTE 2: Internal Rewrite
+# Se ema buka /faile, servidor buka /faile.php internalmente
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+?)$ $1.php [L]
+
+# 5. Default index file
+DirectoryIndex index.php index.html
+
+# 6. Seguranasa adisional - Impede aksesu ba config files
+<FilesMatch "(config|wp-config|database|settings|koneksaun)\.(php|inc|txt)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
