@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/PNTL_logo.png/120px-PNTL_logo.png" alt="PNTL Logo" width="100"/>
+  <img src="https://github.com/abiliodacosta/sistema_geografia_identifikasaun_edifisio_PNTL/blob/main/vizitor/img/pntlall.png" alt="PNTL Logo" width="100"/>
 
   # PNTL Infrastructure & Management System
 
