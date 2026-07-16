@@ -5,7 +5,7 @@
 
   **A modern Geographic Information System (GIS) and Management Dashboard for Polísia Nasionál Timor-Leste.**
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![License: MIT]([https://img.shields.io/badge/License-MIT-blue.svg](https://github.com/abiliodacosta/sistema_geografia_identifikasaun_edifisio_PNTL/blob/main/Screenshot%202026-07-16%20133424.png))](https://opensource.org/licenses/MIT)
   [![UI: Responsive](https://img.shields.io/badge/UI-Responsive-success)](#)
   [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 </div>
