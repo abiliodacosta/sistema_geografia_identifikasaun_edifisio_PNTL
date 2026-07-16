@@ -26,7 +26,7 @@ Aplikasi Web ini dibangun untuk **Polísia Nasionál Timor-Leste (PNTL)** guna m
 *(Ganti URL gambar di bawah ini dengan gambar aplikasi Anda yang sudah di-upload ke folder `docs/` atau image hosting)*
 
 ### Peta Interaktif & Chatbot
-![Peta & Chatbot](https://via.placeholder.com/800x400.png?text=Screenshot+Peta+dan+Chatbot)
+<img src="https://github.com/abiliodacosta/sistema_geografia_identifikasaun_edifisio_PNTL/blob/main/Screenshot%202026-07-16%20133424.png" alt="PNTL Logo" width="1000px" heigh="100"/>
 
 ### Dashboard Admin
  <img src="https://github.com/abiliodacosta/sistema_geografia_identifikasaun_edifisio_PNTL/blob/main/Screenshot%202026-07-16%20133518.png" alt="PNTL Logo" width="1000px" heigh="100"/>
